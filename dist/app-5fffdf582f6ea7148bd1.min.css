@@ -1,0 +1,143 @@
+html {
+  font-family: 'Merriweather', serif;
+  background-color: #f0f8f4;
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.navwrapper {
+  margin-top: 0px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #31575c;
+}
+
+.navwrappersLeft a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  background: #d8dfc7;
+  color: #616b68;
+}
+
+.navwrappersRight a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  background: #d8dfc7;
+  color: #616b68;
+}
+
+.navwrapper .navwrapperRight a {
+  padding: .25em;
+  font-size: 2em;
+}
+
+.navwrapper a:hover,
+.navwrapper a:active {
+  color: #d8dfc7;
+  background: #616b68;
+}
+
+.homewrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.homewrappers {
+  display: grid;
+  justify-content: center;
+}
+
+.homewrapperstop h1 {
+  font-size: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.homewrappersbottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.homewrappersbottom img {
+  max-width: 350px;
+  padding: 10px;
+}
+
+.homewrappersbottom p {
+  display: grid;
+  align-content: center;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.educationwrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  margin-top: 20px;
+}
+
+.educationwrappers {
+  display: grid;
+  justify-content: center;
+}
+
+/* .educationlist {
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+} */
+/* .educationlist li {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+
+.educationlist i {
+    font-size: 40px;
+} */
+.educationwrappers img {
+  max-width: 200px;
+  padding: 20px;
+}
+
+.educationwrappers h1 {
+  display: grid;
+  justify-content: center;
+}
+
+.workwrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+
+.workwrappers {
+  display: grid;
+  justify-content: center;
+}
+
+.workwrappers p {
+  display: grid;
+  align-content: center;
+  max-width: 325px;
+}
+
+/*# sourceMappingURL=app-ac27d9152dc5dc9c5fa5.map*/

@@ -20,14 +20,14 @@ export default function() {
                 </NavLink>
             </div>
             <div className='navwrappersRight'> 
-                <NavLink exact to='www.linkedin.com/in/blakealanmecham'>
+                <a target='_blank' href='https://www.linkedin.com/in/blakealanmecham/'>
                     <i className="fab fa-linkedin"></i>
-                </NavLink>
+                </a>
             </div>
             <div className='navwrappersRight'>
-                <NavLink exact to='https://github.com/blakemecham'>
-                <i className="fab fa-github"></i>
-                </NavLink>
+                <a target='_blank' href='https://github.com/blakemecham'>
+                    <i className="fab fa-github"></i>
+                </a>
             </div>
         </div>
     );
